@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dragon Ball Z Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="start-screen">
+            <h1>Dragon Ball Z Quiz</h1>
+            <button id="start-btn" class="btn">Start</button>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="timer">60</div>
+            <div id="score">0</div>
+            <div id="question"></div>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <button id="next-btn" class="btn hide">Next</button>
+        </div>
+        <div id="end-screen" class="hide">
+            <h1>Game Over!</h1>
+            <div>Your Final Score: <span id="final-score"></span></div>
+            <label for="initials">Enter Your Initials:</label>
+            <input type="text" id="initials">
+            <button id="submit-score" class="btn">Submit</button>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
