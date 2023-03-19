@@ -172,5 +172,3 @@ function endQuiz() {
     document.getElementById("end-screen").classList.remove("hide");
     document.getElementById("final-score").innerText = score;
 }
-
-//
